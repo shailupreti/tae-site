@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /_design-options/
+
+Sitemap: https://www.theamericanenergy.com/sitemap.xml

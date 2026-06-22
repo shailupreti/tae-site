@@ -1,0 +1,9 @@
+{
+  "name": "The American Energy",
+  "short_name": "American Energy",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0A1326",
+  "theme_color": "#0A1326",
+  "icons": [{ "src": "/assets/favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
