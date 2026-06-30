@@ -9,6 +9,13 @@
   <url><loc>https://www.theamericanenergy.com/energy-sources/hydro.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.theamericanenergy.com/energy-sources/geothermal.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.theamericanenergy.com/energy-sources/storage.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.theamericanenergy.com/value-chain/index.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.theamericanenergy.com/value-chain/mining.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.theamericanenergy.com/value-chain/refining.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.theamericanenergy.com/value-chain/generation.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.theamericanenergy.com/value-chain/manufacturing.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.theamericanenergy.com/value-chain/storage-grid.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.theamericanenergy.com/value-chain/recycling.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.theamericanenergy.com/applications/ai-data-centers.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://www.theamericanenergy.com/applications/defense-and-mission-critical.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://www.theamericanenergy.com/applications/electric-vehicles.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>

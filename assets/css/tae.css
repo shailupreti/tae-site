@@ -215,6 +215,9 @@ html[data-theme="light"] .tk{color:rgba(255,255,255,.55)}
 .cstep h4{font-family:'Sora';font-weight:600;font-size:14px;color:var(--text);margin-bottom:8px;line-height:1.25}
 .cstep p{font-size:12.5px;color:var(--text-faint);line-height:1.55}
 .chain-rule{height:1px;background:linear-gradient(90deg,transparent,var(--accent),transparent);opacity:.5;margin-top:0}
+.cstep .cgo{display:inline-block;margin-top:12px;font-family:'Sora';font-weight:600;font-size:12px;letter-spacing:.02em;color:var(--accent);opacity:0;transform:translateX(-4px);transition:.25s}
+.cstep:hover .cgo{opacity:1;transform:none}
+@media(max-width:880px){.cstep .cgo{opacity:1;transform:none}}
 @media(max-width:880px){.chain{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:560px){.chain{grid-template-columns:1fr 1fr}}
 

@@ -43,13 +43,13 @@
     <li class="has-dd"><button>Value Chain <span class="nav-arrow">▾</span></button>
       <div class="nav-dd">
         <span class="dd-label">Supply Chain Stages</span>
-        <a href="${base}index.html#value-chain">Full Value Chain Overview</a>
-        <a href="${base}index.html#value-chain">01 — Exploration &amp; Mining</a>
-        <a href="${base}index.html#value-chain">02 — Refining &amp; Processing</a>
-        <a href="${base}index.html#value-chain">03 — Active Materials</a>
-        <a href="${base}index.html#value-chain">04 — Cell Manufacturing</a>
-        <a href="${base}index.html#value-chain">05 — Packs &amp; Systems</a>
-        <a href="${base}index.html#value-chain">06 — Use, Reuse &amp; Recycle</a>
+        <a href="${base}value-chain/index.html">Full Value Chain Overview</a>
+        <a href="${base}value-chain/mining.html">01 — Exploration &amp; Mining</a>
+        <a href="${base}value-chain/refining.html">02 — Refining &amp; Processing</a>
+        <a href="${base}value-chain/generation.html">03 — Generation</a>
+        <a href="${base}value-chain/manufacturing.html">04 — Equipment &amp; Cell Manufacturing</a>
+        <a href="${base}value-chain/storage-grid.html">05 — Storage &amp; Grid</a>
+        <a href="${base}value-chain/recycling.html">06 — Use, Reuse &amp; Recycle</a>
       </div></li>
     <li class="has-dd"><button>Critical Minerals <span class="nav-arrow">▾</span></button>
       <div class="nav-dd wide">
@@ -101,7 +101,7 @@
 <div class="mnav" id="mnav">
   <div class="msec"><div class="mh"><a href="${base}index.html#america-first" style="color:inherit">America First</a></div></div>
   ${mSection('Energy Sources', [['All Energy Sources', base + 'energy-sources/index.html'], ['Solar', base + 'energy-sources/solar.html'], ['Nuclear', base + 'energy-sources/nuclear.html'], ['Natural Gas', base + 'energy-sources/natural-gas.html'], ['Wind', base + 'energy-sources/wind.html'], ['Hydropower', base + 'energy-sources/hydro.html'], ['Geothermal', base + 'energy-sources/geothermal.html'], ['Battery Storage', base + 'energy-sources/storage.html']])}
-  ${mSection('Value Chain', [['Full Value Chain Overview', base + 'index.html#value-chain'], ['Mining & Exploration', base + 'index.html#value-chain'], ['Refining & Processing', base + 'index.html#value-chain'], ['Cell Manufacturing', base + 'index.html#value-chain'], ['Packs & Systems', base + 'index.html#value-chain'], ['Recycling & Second Life', base + 'index.html#value-chain']])}
+  ${mSection('Value Chain', [['Full Value Chain Overview', base + 'value-chain/index.html'], ['01 — Exploration & Mining', base + 'value-chain/mining.html'], ['02 — Refining & Processing', base + 'value-chain/refining.html'], ['03 — Generation', base + 'value-chain/generation.html'], ['04 — Equipment & Cell Manufacturing', base + 'value-chain/manufacturing.html'], ['05 — Storage & Grid', base + 'value-chain/storage-grid.html'], ['06 — Use, Reuse & Recycle', base + 'value-chain/recycling.html']])}
   ${mSection('Critical Minerals', [['All Minerals', base + 'critical-minerals/index.html'], ['Lithium', base + 'critical-minerals/lithium.html'], ['Phosphorus', base + 'critical-minerals/phosphorus.html'], ['Iron', base + 'critical-minerals/iron.html'], ['Copper', base + 'critical-minerals/copper.html'], ['Manganese', base + 'critical-minerals/manganese.html'], ['Nickel', base + 'critical-minerals/nickel.html'], ['Cobalt', base + 'critical-minerals/cobalt.html'], ['Graphite', base + 'critical-minerals/graphite.html'], ['Aluminum', base + 'critical-minerals/aluminum.html'], ['Steel & Alloys', base + 'critical-minerals/steel-and-alloys.html']])}
   ${mSection('Cell Technology', [['Technology Overview', base + 'cell-technology/index.html'], ['BMLMP', base + 'cell-technology/bmlmp.html'], ['LFP', base + 'cell-technology/lfp.html'], ['NMC', base + 'cell-technology/nmc.html'], ['Solid-State', base + 'cell-technology/solid-state.html'], ['American BMS', base + 'cell-technology/american-bms.html'], ['Digital DNA', base + 'cell-technology/digital-dna.html'], ['Cell-to-Container', base + 'cell-technology/cell-to-container.html']])}
   ${mSection('Applications', [['AI Data Centers', base + 'applications/ai-data-centers.html'], ['Electric Vehicles', base + 'applications/electric-vehicles.html'], ['Grid & BESS', base + 'applications/grid-and-bess.html'], ['Defense & Mission-Critical', base + 'applications/defense-and-mission-critical.html'], ['Homes & Buildings', base + 'applications/homes-and-buildings.html'], ['Portable & Tools', base + 'applications/portable-electronics-and-tools.html']])}
@@ -168,7 +168,7 @@
         <li><a href="${base}applications/homes-and-buildings.html">Homes &amp; Buildings</a></li></ul></div>
       <div class="foot-col"><h4>Company</h4><ul>
         <li><a href="${base}index.html#america-first">America First</a></li>
-        <li><a href="${base}index.html#value-chain">Value Chain</a></li>
+        <li><a href="${base}value-chain/index.html">Value Chain</a></li>
         <li><a href="${base}index.html#contact">Contact</a></li>
         <li><a href="mailto:shailupreti@gmail.com">Email Us</a></li></ul></div>
     </div>
