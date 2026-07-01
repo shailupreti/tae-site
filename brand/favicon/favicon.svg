@@ -6,19 +6,9 @@
     <linearGradient id="cyanG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7DD3FC"/><stop offset="1" stop-color="#38BDF8"/></linearGradient>
     <linearGradient id="spark" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FCD34D"/><stop offset="1" stop-color="#FBBF24"/></linearGradient>
   </defs>
-
   <rect width="512" height="512" rx="115" fill="url(#tile)"/>
   <rect width="512" height="512" rx="115" fill="url(#glow)"/>
   <rect x="1.5" y="1.5" width="509" height="509" rx="113.5" fill="none" stroke="#ffffff" stroke-opacity=".06" stroke-width="3"/>
-
-  <!-- four parallel, forward-leaning bars; ascending, 4th tallest -->
-  <g transform="translate(51,0) skewX(-9)">
-    <rect x="150" y="264" width="34" height="96"  rx="17" fill="url(#steel)"/>
-    <rect x="194" y="226" width="34" height="134" rx="17" fill="url(#steel)"/>
-    <rect x="238" y="188" width="34" height="172" rx="17" fill="url(#steel)"/>
-    <rect x="282" y="146" width="34" height="214" rx="17" fill="url(#cyanG)"/>
-  </g>
-
-  <!-- amber spark over the tallest bar -->
-  <path d="M330 100 Q335 127 360 130 Q335 133 330 160 Q325 133 300 130 Q325 127 330 100 Z" fill="url(#spark)"/>
+  <g transform="translate(51,0) skewX(-9)"><rect x="150" y="264" width="34" height="96" rx="17" fill="url(#steel)"/><rect x="194" y="226" width="34" height="134" rx="17" fill="url(#steel)"/><rect x="238" y="188" width="34" height="172" rx="17" fill="url(#steel)"/><rect x="282" y="146" width="34" height="214" rx="17" fill="url(#cyanG)"/></g>
+  <path d="M330 70 Q335 99 364 104 Q335 109 330 138 Q325 109 296 104 Q325 99 330 70 Z" fill="url(#spark)"/>
 </svg>

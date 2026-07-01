@@ -1,14 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="The American Energy growth mark">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="The American Energy growth mark, cyan">
   <defs>
     <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#17284A"/><stop offset="1" stop-color="#070E1F"/></linearGradient>
     <radialGradient id="glow" cx="80%" cy="14%" r="70%"><stop offset="0" stop-color="#38BDF8" stop-opacity=".18"/><stop offset="60%" stop-color="#38BDF8" stop-opacity="0"/></radialGradient>
     <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#AEC0D8"/><stop offset="1" stop-color="#5B6F92"/></linearGradient>
     <linearGradient id="cyanG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7DD3FC"/><stop offset="1" stop-color="#38BDF8"/></linearGradient>
-    <linearGradient id="spark" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FCD34D"/><stop offset="1" stop-color="#FBBF24"/></linearGradient>
+    <linearGradient id="sparkC" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7DD3FC"/><stop offset="1" stop-color="#38BDF8"/></linearGradient>
   </defs>
   <rect width="512" height="512" rx="115" fill="url(#tile)"/>
   <rect width="512" height="512" rx="115" fill="url(#glow)"/>
   <rect x="1.5" y="1.5" width="509" height="509" rx="113.5" fill="none" stroke="#ffffff" stroke-opacity=".06" stroke-width="3"/>
   <g transform="translate(51,0) skewX(-9)"><rect x="150" y="264" width="34" height="96" rx="17" fill="url(#steel)"/><rect x="194" y="226" width="34" height="134" rx="17" fill="url(#steel)"/><rect x="238" y="188" width="34" height="172" rx="17" fill="url(#steel)"/><rect x="282" y="146" width="34" height="214" rx="17" fill="url(#cyanG)"/></g>
-  <path d="M330 70 Q335 99 364 104 Q335 109 330 138 Q325 109 296 104 Q325 99 330 70 Z" fill="url(#spark)"/>
+  <path d="M330 70 Q335 99 364 104 Q335 109 330 138 Q325 109 296 104 Q325 99 330 70 Z" fill="url(#sparkC)"/>
 </svg>

@@ -14,13 +14,8 @@
     <text x="90" y="470" fill="#A9BBD2" font-size="30" font-weight="500">Solar · Nuclear · Gas · Wind · Hydro · Geothermal · Storage</text>
     <text x="90" y="560" fill="#6E83A1" font-size="22" font-weight="500">Endicott, New York · 100% American-First energy supply chain</text>
   </g>
-  <g transform="translate(946 206) scale(0.72) translate(-142 -94)">
-    <g transform="translate(51,0) skewX(-9)">
-      <rect x="150" y="264" width="34" height="96" rx="17" fill="url(#steel)"/>
-      <rect x="194" y="226" width="34" height="134" rx="17" fill="url(#steel)"/>
-      <rect x="238" y="188" width="34" height="172" rx="17" fill="url(#steel)"/>
-      <rect x="282" y="146" width="34" height="214" rx="17" fill="url(#cyanG)"/>
-    </g>
-    <path d="M330 100 Q335 127 360 130 Q335 133 330 160 Q325 133 300 130 Q325 127 330 100 Z" fill="url(#spark)"/>
+  <g transform="translate(946 220) scale(0.72) translate(-146 -62)">
+    <g transform="translate(51,0) skewX(-9)"><rect x="150" y="264" width="34" height="96" rx="17" fill="url(#steel)"/><rect x="194" y="226" width="34" height="134" rx="17" fill="url(#steel)"/><rect x="238" y="188" width="34" height="172" rx="17" fill="url(#steel)"/><rect x="282" y="146" width="34" height="214" rx="17" fill="url(#cyanG)"/></g>
+    <path d="M330 70 Q335 99 364 104 Q335 109 330 138 Q325 109 296 104 Q325 99 330 70 Z" fill="url(#spark)"/>
   </g>
 </svg>
