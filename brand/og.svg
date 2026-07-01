@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="g" cx="78%" cy="12%" r="65%">
+      <stop offset="0" stop-color="#38BDF8" stop-opacity=".30"/>
+      <stop offset="60%" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bolt" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#38BDF8"/><stop offset="1" stop-color="#7DD3FC"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#0A1326"/>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <g font-family="'Helvetica Neue',Arial,sans-serif">
+    <text x="90" y="150" fill="#38BDF8" font-size="22" font-weight="700" letter-spacing="6">POWERING AMERICAN INDEPENDENCE</text>
+    <text x="86" y="300" fill="#FFFFFF" font-size="92" font-weight="800" letter-spacing="-2">The American</text>
+    <text x="86" y="400" fill="#38BDF8" font-size="92" font-weight="800" letter-spacing="-2">Energy</text>
+    <text x="90" y="470" fill="#A9BBD2" font-size="30" font-weight="500">Solar · Nuclear · Gas · Wind · Hydro · Geothermal · Storage</text>
+    <text x="90" y="560" fill="#6E83A1" font-size="22" font-weight="500">Endicott, New York · 100% American-First energy supply chain</text>
+  </g>
+  <g transform="translate(995,205)">
+    <circle cx="60" cy="100" r="96" fill="none" stroke="#38BDF8" stroke-width="3" opacity=".30"/>
+    <ellipse cx="60" cy="100" rx="96" ry="38" fill="none" stroke="#38BDF8" stroke-width="3" opacity=".30"/>
+    <ellipse cx="60" cy="100" rx="96" ry="38" fill="none" stroke="#38BDF8" stroke-width="3" opacity=".30" transform="rotate(60 60 100)"/>
+    <ellipse cx="60" cy="100" rx="96" ry="38" fill="none" stroke="#38BDF8" stroke-width="3" opacity=".30" transform="rotate(120 60 100)"/>
+    <path d="M70 36 L34 116 H60 L50 184 L92 96 H64 Z" fill="url(#bolt)"/>
+    <circle cx="120" cy="40" r="9" fill="#FBBF24"/>
+  </g>
+</svg>

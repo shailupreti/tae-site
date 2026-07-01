@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brand Guidelines — The American Energy</title>
+<meta name="robots" content="noindex,nofollow">
+<link rel="icon" href="favicon/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0A1326; --bg-2:#0F1B33; --bg-3:#16243F; --ink:#060C1A;
+    --text:#EAF2FB; --dim:#A9BBD2; --faint:#6E83A1;
+    --cyan:#38BDF8; --cyan-bright:#7DD3FC; --cyan-deep:#0E5A86;
+    --spark:#FBBF24; --line:rgba(234,242,251,.12);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'IBM Plex Sans',sans-serif;background:var(--bg);color:var(--text);line-height:1.65;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 32px}
+  h1,h2,h3,h4,.disp{font-family:'Sora',sans-serif;letter-spacing:-.02em}
+  a{color:var(--cyan)}
+  .eyebrow{font-family:'Sora';font-weight:600;font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--cyan);display:block;margin-bottom:14px}
+  section{padding:72px 0;border-top:1px solid var(--line)}
+  section h2{font-size:clamp(26px,3.4vw,38px);font-weight:700;margin-bottom:8px}
+  section .sub{color:var(--dim);max-width:640px;margin-bottom:36px;font-size:16px}
+  /* cover */
+  .cover{padding:96px 0 72px;background:radial-gradient(ellipse 80% 90% at 78% 6%,rgba(56,189,248,.16),transparent 58%)}
+  .cover .lock{max-width:520px;width:100%;margin-bottom:36px}
+  .cover h1{font-size:clamp(34px,5vw,56px);font-weight:800;line-height:1.02}
+  .cover h1 em{font-style:normal;color:var(--cyan)}
+  .cover p{color:var(--dim);font-size:18px;max-width:600px;margin-top:18px}
+  .badge{display:inline-block;font-family:'Sora';font-weight:600;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--cyan);border:1px solid var(--cyan-deep);background:rgba(56,189,248,.1);padding:6px 14px;border-radius:999px;margin-bottom:28px}
+  /* logo grid */
+  .logo-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+  @media(max-width:720px){.logo-grid{grid-template-columns:1fr}}
+  .logo-card{border:1px solid var(--line);border-radius:16px;overflow:hidden}
+  .logo-card .stage{display:flex;align-items:center;justify-content:center;padding:44px 28px;min-height:180px}
+  .logo-card .stage.on-dark{background:var(--ink)}
+  .logo-card .stage.on-light{background:#fff}
+  .logo-card .stage img,.logo-card .stage svg{max-width:100%;max-height:110px}
+  .logo-card .cap{padding:14px 20px;font-size:13px;color:var(--faint);font-family:'Sora';font-weight:500;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:12px}
+  .logo-card .cap a{font-size:12px}
+  .mark-row{display:flex;gap:20px;flex-wrap:wrap;margin-bottom:20px}
+  .mark-tile{width:132px;height:132px;border-radius:16px;display:flex;align-items:center;justify-content:center;border:1px solid var(--line)}
+  .mark-tile.dk{background:var(--ink)} .mark-tile.lt{background:#fff}
+  .mark-tile svg,.mark-tile img{width:78px;height:78px}
+  /* rules */
+  .rules{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:8px}
+  @media(max-width:720px){.rules{grid-template-columns:1fr}}
+  .rule{border:1px solid var(--line);border-radius:12px;padding:18px 20px;font-size:14px;color:var(--dim)}
+  .rule b{font-family:'Sora';display:block;margin-bottom:4px;font-size:13px;letter-spacing:.02em}
+  .rule.do b{color:var(--cyan)} .rule.dont b{color:#f77}
+  /* color */
+  .sw-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+  @media(max-width:720px){.sw-grid{grid-template-columns:1fr 1fr}}
+  .sw{border:1px solid var(--line);border-radius:12px;overflow:hidden}
+  .sw .chip{height:96px}
+  .sw .meta{padding:12px 14px}
+  .sw .nm{font-family:'Sora';font-weight:600;font-size:13px}
+  .sw .hex{font-size:12px;color:var(--faint);letter-spacing:.04em;margin-top:2px;font-family:'Sora'}
+  .grouplabel{font-family:'Sora';font-weight:600;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--faint);margin:26px 0 12px}
+  /* type */
+  .type-spec{border:1px solid var(--line);border-radius:16px;padding:30px 28px;margin-bottom:18px}
+  .type-spec .lab{font-family:'Sora';font-weight:600;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--faint);margin-bottom:12px}
+  .type-spec .big{font-family:'Sora';font-weight:800;font-size:clamp(30px,5vw,52px);line-height:1.05;letter-spacing:-.02em}
+  .type-spec .big em{font-style:normal;color:var(--cyan)}
+  .type-spec .body{font-family:'IBM Plex Sans';font-size:17px;color:var(--dim);margin-top:10px;max-width:640px}
+  .scale{display:flex;flex-direction:column;gap:2px;border:1px solid var(--line);border-radius:16px;overflow:hidden}
+  .scale .row{display:grid;grid-template-columns:150px 1fr;gap:16px;align-items:baseline;padding:14px 22px;border-top:1px solid var(--line)}
+  .scale .row:first-child{border-top:none}
+  .scale .k{font-family:'Sora';font-size:12px;color:var(--faint);letter-spacing:.02em}
+  .scale .v{font-family:'Sora';color:var(--text)}
+  /* social */
+  .social img{width:100%;border-radius:16px;border:1px solid var(--line);display:block}
+  .icon-row{display:flex;gap:22px;align-items:flex-end;flex-wrap:wrap;margin-top:10px}
+  .icon-row figure{text-align:center}
+  .icon-row img{border-radius:10px;display:block;margin-bottom:8px}
+  .icon-row figcaption{font-size:11px;color:var(--faint);font-family:'Sora'}
+  /* voice */
+  .voice{border-left:3px solid var(--cyan);background:rgba(56,189,248,.08);padding:22px 26px;border-radius:0 12px 12px 0;margin-bottom:16px}
+  .voice p{font-family:'Sora';font-weight:500;font-size:clamp(18px,2.4vw,24px);line-height:1.4;color:var(--text)}
+  .voice p em{font-style:normal;color:var(--cyan);font-weight:700}
+  .pill-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+  .pill{font-family:'Sora';font-weight:500;font-size:13px;color:var(--dim);border:1px solid var(--line);border-radius:999px;padding:8px 16px}
+  /* downloads */
+  .dl{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  @media(max-width:720px){.dl{grid-template-columns:1fr}}
+  .dl a{display:flex;justify-content:space-between;align-items:center;gap:10px;border:1px solid var(--line);border-radius:10px;padding:13px 16px;font-family:'Sora';font-weight:500;font-size:14px;color:var(--text);text-decoration:none;transition:.15s}
+  .dl a:hover{border-color:var(--cyan);background:rgba(56,189,248,.06)}
+  .dl a span{font-size:11px;color:var(--faint);letter-spacing:.06em;text-transform:uppercase}
+  footer{padding:48px 0 64px;border-top:1px solid var(--line);color:var(--faint);font-size:13px}
+  footer a{color:var(--dim)}
+</style>
+</head>
+<body>
+
+<!-- COVER -->
+<header class="cover"><div class="wrap">
+  <span class="badge">Brand Guidelines · v1.0</span>
+  <img class="lock" src="logo/tae-lockup-dark.svg" alt="The American Energy">
+  <h1>The identity behind <em>American energy independence.</em></h1>
+  <p>The complete visual and verbal system for The American Energy — logo, color, type, iconography, and voice. Everything here matches the live site at <a href="https://www.theamericanenergy.com/">theamericanenergy.com</a>.</p>
+</div></header>
+
+<!-- STORY -->
+<section><div class="wrap">
+  <span class="eyebrow">Who We Are</span>
+  <h2>A critical piece in the American energy value chain.</h2>
+  <p class="sub">The American Energy champions an all-of-the-above domestic energy strategy — solar, nuclear, natural gas, wind, hydro, geothermal, and storage. We don't build the entire system, and we don't claim to. Our critical, irreplaceable piece is the <strong style="color:var(--text)">battery</strong>: from battery metals, through battery-grade refining and American-made cells, to grid storage — the link that makes an all-of-the-above grid actually reliable.</p>
+</div></section>
+
+<!-- LOGO -->
+<section><div class="wrap">
+  <span class="eyebrow">Logo</span>
+  <h2>The Logo Suite</h2>
+  <p class="sub">The primary logo is the horizontal lockup — the energy mark paired with the Sora wordmark. Use the lockup wherever space allows; fall back to the standalone mark for avatars, favicons, and tight spaces.</p>
+
+  <div class="logo-grid">
+    <div class="logo-card"><div class="stage on-dark"><img src="logo/tae-lockup-dark.svg" alt="Lockup on dark"></div><div class="cap"><span>Primary lockup — on dark</span><a href="logo/tae-lockup-dark.svg">SVG</a></div></div>
+    <div class="logo-card"><div class="stage on-light"><img src="logo/tae-lockup-light.svg" alt="Lockup on light"></div><div class="cap"><span>Primary lockup — on light</span><a href="logo/tae-lockup-light.svg">SVG</a></div></div>
+    <div class="logo-card"><div class="stage on-dark"><img src="logo/tae-wordmark-dark.svg" alt="Wordmark on dark"></div><div class="cap"><span>Wordmark — on dark</span><a href="logo/tae-wordmark-dark.svg">SVG</a></div></div>
+    <div class="logo-card"><div class="stage on-light"><img src="logo/tae-wordmark-light.svg" alt="Wordmark on light"></div><div class="cap"><span>Wordmark — on light</span><a href="logo/tae-wordmark-light.svg">SVG</a></div></div>
+  </div>
+
+  <div class="grouplabel">The Mark</div>
+  <div class="mark-row">
+    <div class="mark-tile dk"><svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="m1" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#38BDF8"/><stop offset="1" stop-color="#7DD3FC"/></linearGradient></defs><g fill="none" stroke="#7DD3FC" stroke-opacity=".45" stroke-width="2.4"><circle cx="64" cy="64" r="50"/><ellipse cx="64" cy="64" rx="20" ry="50"/><ellipse cx="64" cy="64" rx="50" ry="20"/></g><path d="M74 22 L40 70 H59 L52 106 L88 56 H67 Z" fill="url(#m1)"/><circle cx="102" cy="32" r="7" fill="#FBBF24"/></svg></div>
+    <div class="mark-tile lt"><img src="logo/tae-mark-light.svg" alt="Mark on light"></div>
+    <div class="mark-tile" style="background:#0A1326;padding:0;overflow:hidden"><img src="logo/tae-icon.svg" alt="App icon" style="width:100%;height:100%;border-radius:16px"></div>
+  </div>
+  <p class="sub" style="margin-bottom:28px">The mark is a lightning bolt inside an orbital globe with an amber spark — energy, the nation, and the moment of charge. The navy tile version is the app/favicon form.</p>
+
+  <div class="grouplabel">Usage Rules</div>
+  <div class="rules">
+    <div class="rule do"><b>Do</b> keep clear space around the logo equal to the height of the bolt mark. Place on deep navy or white.</div>
+    <div class="rule do"><b>Do</b> use the on-dark version over navy/photography and the on-light version over white/light surfaces.</div>
+    <div class="rule dont"><b>Don't</b> recolor the wordmark, stretch it, add shadows, or rotate the mark.</div>
+    <div class="rule dont"><b>Don't</b> place the logo on low-contrast backgrounds or busy imagery without a scrim.</div>
+  </div>
+</div></section>
+
+<!-- COLOR -->
+<section><div class="wrap">
+  <span class="eyebrow">Color</span>
+  <h2>Patriot Navy &amp; Electric Cyan</h2>
+  <p class="sub">A deep navy foundation, an electric-cyan accent that carries energy and interactivity, and a warm amber spark for emphasis. Dark is the primary mode; a light mode mirrors it.</p>
+
+  <div class="grouplabel">Core</div>
+  <div class="sw-grid">
+    <div class="sw"><div class="chip" style="background:#0A1326"></div><div class="meta"><div class="nm">Deep Navy</div><div class="hex">#0A1326</div></div></div>
+    <div class="sw"><div class="chip" style="background:#38BDF8"></div><div class="meta"><div class="nm">Electric Cyan</div><div class="hex">#38BDF8</div></div></div>
+    <div class="sw"><div class="chip" style="background:#7DD3FC"></div><div class="meta"><div class="nm">Cyan Bright</div><div class="hex">#7DD3FC</div></div></div>
+    <div class="sw"><div class="chip" style="background:#FBBF24"></div><div class="meta"><div class="nm">Amber Spark</div><div class="hex">#FBBF24</div></div></div>
+  </div>
+
+  <div class="grouplabel">Dark surfaces &amp; ink</div>
+  <div class="sw-grid">
+    <div class="sw"><div class="chip" style="background:#060C1A"></div><div class="meta"><div class="nm">Ink</div><div class="hex">#060C1A</div></div></div>
+    <div class="sw"><div class="chip" style="background:#0F1B33"></div><div class="meta"><div class="nm">Surface</div><div class="hex">#0F1B33</div></div></div>
+    <div class="sw"><div class="chip" style="background:#16243F"></div><div class="meta"><div class="nm">Surface 2</div><div class="hex">#16243F</div></div></div>
+    <div class="sw"><div class="chip" style="background:#0E5A86"></div><div class="meta"><div class="nm">Cyan Deep</div><div class="hex">#0E5A86</div></div></div>
+  </div>
+
+  <div class="grouplabel">Text</div>
+  <div class="sw-grid">
+    <div class="sw"><div class="chip" style="background:#EAF2FB"></div><div class="meta"><div class="nm">Text</div><div class="hex">#EAF2FB</div></div></div>
+    <div class="sw"><div class="chip" style="background:#A9BBD2"></div><div class="meta"><div class="nm">Text Dim</div><div class="hex">#A9BBD2</div></div></div>
+    <div class="sw"><div class="chip" style="background:#6E83A1"></div><div class="meta"><div class="nm">Text Faint</div><div class="hex">#6E83A1</div></div></div>
+    <div class="sw"><div class="chip" style="background:#0369A1"></div><div class="meta"><div class="nm">Sky (light-mode accent)</div><div class="hex">#0369A1</div></div></div>
+  </div>
+</div></section>
+
+<!-- TYPE -->
+<section><div class="wrap">
+  <span class="eyebrow">Typography</span>
+  <h2>Sora &amp; IBM Plex Sans</h2>
+  <p class="sub">Sora — a geometric, energetic display face — carries headlines, the wordmark, numbers, eyebrows, and buttons. IBM Plex Sans handles body copy and UI: technical, legible, and neutral.</p>
+
+  <div class="type-spec">
+    <div class="lab">Display · Sora · 700–800</div>
+    <div class="big">Powered Here. <em>Independent Here.</em></div>
+  </div>
+  <div class="type-spec">
+    <div class="lab">Body · IBM Plex Sans · 400–600</div>
+    <div class="body">An all-of-the-above American energy strategy, built on a traceable minerals-to-megawatts supply chain — with the battery as the critical piece that makes the whole grid reliable.</div>
+  </div>
+
+  <div class="scale">
+    <div class="row"><div class="k">Hero · Sora 800</div><div class="v" style="font-size:34px">clamp(44–76px)</div></div>
+    <div class="row"><div class="k">H1 · Sora 700</div><div class="v" style="font-size:26px">clamp(30–46px)</div></div>
+    <div class="row"><div class="k">H3 · Sora 600</div><div class="v" style="font-size:20px">22px</div></div>
+    <div class="row"><div class="k">Body · Plex 400</div><div class="v" style="font-size:16px;font-family:'IBM Plex Sans'">15–17px</div></div>
+    <div class="row"><div class="k">Eyebrow · Sora 600</div><div class="v" style="font-size:12px;letter-spacing:.24em;text-transform:uppercase">12px · +240 tracking</div></div>
+  </div>
+</div></section>
+
+<!-- ICONOGRAPHY / SOCIAL -->
+<section><div class="wrap">
+  <span class="eyebrow">Icons &amp; Social</span>
+  <h2>Favicon, App Icons &amp; Social Card</h2>
+  <p class="sub">The navy-tile bolt is the app/favicon form; a full set is exported for every platform. The social card is the Open Graph preview shown when the site is shared.</p>
+
+  <div class="icon-row">
+    <figure><img src="favicon/favicon-32.png" width="32" height="32" alt="32"><figcaption>32px</figcaption></figure>
+    <figure><img src="favicon/favicon-48.png" width="48" height="48" alt="48"><figcaption>48px</figcaption></figure>
+    <figure><img src="favicon/apple-touch-icon.png" width="72" height="72" alt="apple touch"><figcaption>180px · Apple</figcaption></figure>
+    <figure><img src="favicon/icon-192.png" width="88" height="88" alt="192"><figcaption>192px</figcaption></figure>
+    <figure><img src="favicon/icon-512.png" width="120" height="120" alt="512"><figcaption>512px</figcaption></figure>
+  </div>
+
+  <div class="grouplabel">Social / Open Graph card — 1200×630</div>
+  <div class="social"><img src="og.png" alt="The American Energy social card"></div>
+</div></section>
+
+<!-- VOICE -->
+<section><div class="wrap">
+  <span class="eyebrow">Voice &amp; Messaging</span>
+  <h2>How We Sound</h2>
+  <p class="sub">Confident, plainspoken, and industrial — patriotic without being political. We lead with the mission and back it with technical credibility.</p>
+
+  <div class="voice"><p>We don't build every part of America's energy system — and we don't claim to. Our critical piece is the <em>battery</em>: metals to refining to American cells to storage.</p></div>
+  <div class="voice"><p>From <em>American earth</em> to American energy. Mine to megawatt, every step traceable.</p></div>
+
+  <div class="pill-row">
+    <span class="pill">All-of-the-above</span>
+    <span class="pill">Battery-first</span>
+    <span class="pill">Energy independence</span>
+    <span class="pill">Made in America</span>
+    <span class="pill">Traceable · Digital DNA</span>
+    <span class="pill">Firm, reliable, sovereign</span>
+    <span class="pill">Critical piece</span>
+  </div>
+</div></section>
+
+<!-- DOWNLOADS -->
+<section><div class="wrap">
+  <span class="eyebrow">Assets</span>
+  <h2>Download the Package</h2>
+  <p class="sub">All source files live in this <code>/brand</code> folder. Vector logos are SVG; icons are PNG. Convert wordmark text to outlines in a vector editor before print use.</p>
+  <div class="dl">
+    <a href="logo/tae-lockup-dark.svg">Lockup — on dark <span>SVG</span></a>
+    <a href="logo/tae-lockup-light.svg">Lockup — on light <span>SVG</span></a>
+    <a href="logo/tae-wordmark-dark.svg">Wordmark — on dark <span>SVG</span></a>
+    <a href="logo/tae-wordmark-light.svg">Wordmark — on light <span>SVG</span></a>
+    <a href="logo/tae-mark.svg">Mark — on dark <span>SVG</span></a>
+    <a href="logo/tae-mark-light.svg">Mark — on light <span>SVG</span></a>
+    <a href="logo/tae-icon.svg">App icon tile <span>SVG</span></a>
+    <a href="favicon/favicon.svg">Favicon <span>SVG</span></a>
+    <a href="favicon/apple-touch-icon.png">Apple touch icon <span>180 PNG</span></a>
+    <a href="favicon/icon-512.png">App icon <span>512 PNG</span></a>
+    <a href="og.png">Social card <span>1200×630 PNG</span></a>
+    <a href="favicon/mark-512.png">Mark <span>512 PNG</span></a>
+  </div>
+</div></section>
+
+<footer><div class="wrap">
+  The American Energy — Brand Guidelines v1.0 · Endicott, New York · <a href="https://www.theamericanenergy.com/">theamericanenergy.com</a><br>
+  Founded by Shailesh Upreti · Part of the C4V network.
+</div></footer>
+
+</body>
+</html>

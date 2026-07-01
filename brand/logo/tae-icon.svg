@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="The American Energy app icon">
+  <defs><linearGradient id="bi" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#38BDF8"/><stop offset="1" stop-color="#7DD3FC"/></linearGradient></defs>
+  <rect width="128" height="128" rx="28" fill="#0A1326"/>
+  <g fill="none" stroke="#7DD3FC" stroke-opacity=".28" stroke-width="2.2">
+    <circle cx="64" cy="66" r="40"/><ellipse cx="64" cy="66" rx="16" ry="40"/><ellipse cx="64" cy="66" rx="40" ry="16"/>
+  </g>
+  <path d="M72 26 L44 66 H60 L54 98 L84 58 H66 Z" fill="url(#bi)"/>
+  <circle cx="96" cy="34" r="6" fill="#FBBF24"/>
+</svg>
