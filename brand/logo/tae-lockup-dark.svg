@@ -5,12 +5,14 @@
     <linearGradient id="spark" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FCD34D"/><stop offset="1" stop-color="#FBBF24"/></linearGradient>
     <style>@import url('https://fonts.googleapis.com/css2?family=Sora:wght@800&amp;display=swap');text{font-family:'Sora','Helvetica Neue',Arial,sans-serif;font-weight:800}</style>
   </defs>
-  <g transform="translate(6 12) scale(0.416) translate(-135 -108)">
-    <rect x="135" y="258" width="34" height="100" rx="17" fill="url(#steel)"/>
-    <rect x="183" y="220" width="34" height="138" rx="17" fill="url(#steel)"/>
-    <rect x="231" y="182" width="34" height="176" rx="17" fill="url(#steel)"/>
-    <path d="M281 356 L293 215 C297 178 315 160 333 151 C324 180 322 205 319 232 L313 356 Q297 366 281 356 Z" fill="url(#cyanG)"/>
-    <path d="M344 108 Q349 135 376 140 Q349 145 344 172 Q339 145 312 140 Q339 135 344 108 Z" fill="url(#spark)"/>
+  <g transform="translate(4 12) scale(0.38) translate(-142 -94)">
+    <g transform="translate(51,0) skewX(-9)">
+      <rect x="150" y="264" width="34" height="96" rx="17" fill="url(#steel)"/>
+      <rect x="194" y="226" width="34" height="134" rx="17" fill="url(#steel)"/>
+      <rect x="238" y="188" width="34" height="172" rx="17" fill="url(#steel)"/>
+      <rect x="282" y="146" width="34" height="214" rx="17" fill="url(#cyanG)"/>
+    </g>
+    <path d="M330 100 Q335 127 360 130 Q335 133 330 160 Q325 133 300 130 Q325 127 330 100 Z" fill="url(#spark)"/>
   </g>
-  <text x="128" y="82" font-size="50" letter-spacing="-1"><tspan fill="#EAF2FB">The American </tspan><tspan fill="#38BDF8">Energy</tspan></text>
+  <text x="120" y="82" font-size="50" letter-spacing="-1"><tspan fill="#EAF2FB">The American </tspan><tspan fill="#38BDF8">Energy</tspan></text>
 </svg>
