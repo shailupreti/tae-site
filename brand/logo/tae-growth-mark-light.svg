@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="120 95 272 278" role="img" aria-label="The American Energy growth mark">
+  <defs>
+    <linearGradient id="steelL" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8295B3"/><stop offset="1" stop-color="#42536B"/></linearGradient>
+    <linearGradient id="skyL" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0EA5E9"/><stop offset="1" stop-color="#0369A1"/></linearGradient>
+    <linearGradient id="sparkL" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F59E0B"/><stop offset="1" stop-color="#D97706"/></linearGradient>
+  </defs>
+  <rect x="135" y="258" width="34" height="100" rx="17" fill="url(#steelL)"/>
+  <rect x="183" y="220" width="34" height="138" rx="17" fill="url(#steelL)"/>
+  <rect x="231" y="182" width="34" height="176" rx="17" fill="url(#steelL)"/>
+  <path d="M281 356 L293 215 C297 178 315 160 333 151 C324 180 322 205 319 232 L313 356 Q297 366 281 356 Z" fill="url(#skyL)"/>
+  <path d="M344 108 Q349 135 376 140 Q349 145 344 172 Q339 145 312 140 Q339 135 344 108 Z" fill="url(#sparkL)"/>
+</svg>

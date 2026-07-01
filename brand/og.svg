@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
   <defs>
-    <radialGradient id="g" cx="78%" cy="12%" r="65%">
-      <stop offset="0" stop-color="#38BDF8" stop-opacity=".30"/>
-      <stop offset="60%" stop-color="#38BDF8" stop-opacity="0"/>
+    <radialGradient id="g" cx="80%" cy="12%" r="70%">
+      <stop offset="0" stop-color="#38BDF8" stop-opacity=".30"/><stop offset="60%" stop-color="#38BDF8" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="bolt" x1="0" y1="1" x2="0" y2="0">
-      <stop offset="0" stop-color="#38BDF8"/><stop offset="1" stop-color="#7DD3FC"/>
-    </linearGradient>
+    <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0F1B33"/><stop offset="1" stop-color="#0A1326"/></linearGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#AEC0D8"/><stop offset="1" stop-color="#5B6F92"/></linearGradient>
+    <linearGradient id="cyanG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7DD3FC"/><stop offset="1" stop-color="#38BDF8"/></linearGradient>
+    <linearGradient id="spark" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FCD34D"/><stop offset="1" stop-color="#FBBF24"/></linearGradient>
   </defs>
   <rect width="1200" height="630" fill="#0A1326"/>
   <rect width="1200" height="630" fill="url(#g)"/>
@@ -17,12 +17,11 @@
     <text x="90" y="470" fill="#A9BBD2" font-size="30" font-weight="500">Solar · Nuclear · Gas · Wind · Hydro · Geothermal · Storage</text>
     <text x="90" y="560" fill="#6E83A1" font-size="22" font-weight="500">Endicott, New York · 100% American-First energy supply chain</text>
   </g>
-  <g transform="translate(995,205)">
-    <circle cx="60" cy="100" r="96" fill="none" stroke="#38BDF8" stroke-width="3" opacity=".30"/>
-    <ellipse cx="60" cy="100" rx="96" ry="38" fill="none" stroke="#38BDF8" stroke-width="3" opacity=".30"/>
-    <ellipse cx="60" cy="100" rx="96" ry="38" fill="none" stroke="#38BDF8" stroke-width="3" opacity=".30" transform="rotate(60 60 100)"/>
-    <ellipse cx="60" cy="100" rx="96" ry="38" fill="none" stroke="#38BDF8" stroke-width="3" opacity=".30" transform="rotate(120 60 100)"/>
-    <path d="M70 36 L34 116 H60 L50 184 L92 96 H64 Z" fill="url(#bolt)"/>
-    <circle cx="120" cy="40" r="9" fill="#FBBF24"/>
+  <g transform="translate(966 214) scale(0.74) translate(-135 -108)">
+    <rect x="135" y="258" width="34" height="100" rx="17" fill="url(#steel)"/>
+    <rect x="183" y="220" width="34" height="138" rx="17" fill="url(#steel)"/>
+    <rect x="231" y="182" width="34" height="176" rx="17" fill="url(#steel)"/>
+    <path d="M281 356 L293 215 C297 178 315 160 333 151 C324 180 322 205 319 232 L313 356 Q297 366 281 356 Z" fill="url(#cyanG)"/>
+    <path d="M344 108 Q349 135 376 140 Q349 145 344 172 Q339 145 312 140 Q339 135 344 108 Z" fill="url(#spark)"/>
   </g>
 </svg>
